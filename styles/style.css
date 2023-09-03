@@ -1,0 +1,49 @@
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+/* header style is here  */
+
+.header-info h1{
+    line-height: 70px;
+}
+
+.star-card {
+    position: relative;
+    bottom: 7rem;
+    background-color: white;
+    width: 42%;
+    height: 15%;
+    left: 12%;
+}
+
+/* Freshly products style is here  */
+
+.pink-opacity {
+    background-color: #e6a6231a;
+}
+
+.gray-opacity {
+    background-color: #5776391a;
+}
+
+.pink-solid {
+    background:linear-gradient(270deg, #e6a6231a 0%, #e6a5231a 100%)
+}
+
+.solid-gray-G {
+    background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0.00) 100%);
+
+}
+
+
+/* media quarry  */
+
+@media only screen and (max-width:640px) {
+    .star-card {
+        width: auto;
+        height: auto;
+        left: auto;
+        bottom: 0;
+    }
+}
