@@ -1,10 +1,10 @@
-*{
+* {
     font-family: 'Manrope', sans-serif;
 }
 
 /* header style is here  */
 
-.header-info h1{
+.header-info h1 {
     line-height: 70px;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .pink-solid {
-    background:linear-gradient(270deg, #e6a6231a 0%, #e6a5231a 100%)
+    background: linear-gradient(270deg, #e6a6231a 0%, #e6a5231a 100%)
 }
 
 .solid-gray-G {
@@ -36,6 +36,51 @@
 
 }
 
+/* super clicent style is here  */
+ 
+#clicent-img1{
+    position: absolute;
+    left:-1.5rem;
+    top: -2.2rem;
+} 
+
+#clicent-img2{
+    position: absolute;
+    left: -1.5rem;
+    top: 10.2rem;
+} 
+
+#clicent-img3{
+    position: absolute;
+    left: -1.5rem;
+    top: -2.5rem;
+} 
+
+.card-3 {
+    position: absolute;
+    left: -5.5rem;
+    top: 5.5rem;
+}
+
+/* footer style is here   */
+footer {
+    height: 46rem;
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
+}
+
+input[type=email] {
+    border: 0;
+    padding: 12px 15px;
+    margin: 8px 0;
+  }
+
+  input[type=button] {
+    font-size: 1.4rem;
+    color: white;
+    padding: 5px 13px;
+    background: linear-gradient(270deg, #F00 0%, #FF8938 100%);
+    border-radius: 50%;
+  }
 
 /* media quarry  */
 
@@ -45,5 +90,13 @@
         height: auto;
         left: auto;
         bottom: 0;
+    }
+
+    .card-3 {
+        left: 0rem;
+    }
+
+    footer {
+        height: 58rem;
     }
 }
